@@ -11,7 +11,7 @@ namespace phase_2_back_end.CentralHub
         public static class UserHandler
         {
             public static HashSet<string> ConnectedIds = new HashSet<string>();
-            public static int LiveNumber;
+            public static int LiveNumber = 0;
         }
 
         public async Task BroadcastNumber(int number)
