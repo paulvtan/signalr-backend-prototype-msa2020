@@ -32,7 +32,7 @@ namespace phase_2_back_end
             builder =>
             {
                 builder.AllowAnyMethod().AllowAnyHeader()
-                       .WithOrigins("http://localhost:3000")
+                       .WithOrigins("https://signalr-frontend-prototype-msa2020.azurewebsites.net")
                        .AllowCredentials();
             }));
 
